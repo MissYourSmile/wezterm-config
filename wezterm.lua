@@ -37,6 +37,7 @@ config.colors = {
         },
     },
 }
+config.hide_tab_bar_if_only_one_tab = true
 
 config.window_padding = {
     left = 0,
@@ -86,7 +87,6 @@ for i = 1, 8 do
 end
 
 local quick_cmds = {
-    "ls"
 }
 
 for i, cmd in ipairs(quick_cmds) do
