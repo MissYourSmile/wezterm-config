@@ -102,10 +102,10 @@ config.background = {
         horizontal_align = "Center",
         repeat_x = "NoRepeat",
         repeat_y = "NoRepeat",
-        opacity = 0.05,
+        opacity = 0.1,
     },
 }
-wezterm.time.call_after(60, function()
+wezterm.time.call_after(3660, function()
     wezterm.reload_configuration()
 end)
 
